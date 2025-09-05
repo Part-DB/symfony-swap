@@ -1,8 +1,7 @@
 # <img src="https://s3.amazonaws.com/swap.assets/swap_logo.png" height="30px" width="30px"/> Symfony Swap
 
-[![Build status](http://img.shields.io/travis/florianv/symfony-swap.svg?style=flat-square)](https://travis-ci.org/florianv/symfony-swap)
-[![Total Downloads](https://img.shields.io/packagist/dt/florianv/swap-bundle.svg?style=flat-square)](https://packagist.org/packages/florianv/swap-bundle)
-[![Version](http://img.shields.io/packagist/v/florianv/swap-bundle.svg?style=flat-square)](https://packagist.org/packages/florianv/swap-bundle)
+**This is a fork of [florianv/symfony-swap](https://github.com/florianv/symfony-swap) for the use in Part-DB.**
+
 
 Swap allows you to retrieve currency exchange rates from various services such as **[Fixer](https://fixer.io/)**, **[Currency Data](https://currencylayer.com)**
 or **[Exchange Rates Data](https://exchangeratesapi.io)** and optionally cache the results.
@@ -27,7 +26,7 @@ or **[Exchange Rates Data](https://exchangeratesapi.io)** and optionally cache t
 ## QuickStart
 
 ```bash
-$ composer require florianv/swap-bundle php-http/message php-http/guzzle6-adapter ^1.0
+$ composer require part-db/swap-bundle php-http/message php-http/guzzle6-adapter ^1.0
 ```
 
 ## Documentation
