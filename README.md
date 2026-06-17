@@ -144,7 +144,7 @@ Per-query overrides are documented in the [full documentation](Resources/doc/ind
 
 ## 📊 Providers
 
-Symfony Swap supports the 30 exchange rate providers from the underlying [Swap](https://github.com/florianv/swap) library. Pass the **identifier** as the key under `providers` in `config/packages/florianv_swap.yaml`.
+Symfony Swap supports the 30+ exchange rate providers from the underlying [Swap](https://github.com/florianv/swap) library. Pass the **identifier** as the key under `providers` in `config/packages/florianv_swap.yaml`.
 
 ### Commercial providers (require an API key)
 
