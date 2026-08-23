@@ -11,6 +11,7 @@
 
 namespace Florianv\SwapBundle\DependencyInjection;
 
+use Symfony\Component\Config\Definition\Builder\NodeDefinition;
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
 
@@ -266,7 +267,7 @@ class Configuration implements ConfigurationInterface
     }
 
 
-    private function createSimpleProviderNode(string $name)
+    private function createSimpleProviderNode(string $name): NodeDefinition
     {
         $treeBuilder = new TreeBuilder($name);
         $node = $treeBuilder->getRootNode();
